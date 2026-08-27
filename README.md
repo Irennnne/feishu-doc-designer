@@ -20,11 +20,9 @@
 | 图片路径容易失效 | 自动暂存并上传本地素材 |
 | 长内容容易受 Shell 转义影响 | 通过安全的相对 `@file` 和 `shell=False` 发布 |
 
-项目设计借鉴 [frontend-slides](https://github.com/zarazhangrui/frontend-slides) 的设计系统、效果展示和渐进式资源加载思路，但输出是适合长文阅读的飞书原生文档，不使用网页 CSS 或幻灯片动效。
-
 ## Showcase：同一份周报，前后有什么不同
 
-像 [frontend-slides](https://github.com/zarazhangrui/frontend-slides) 一样，这里先 **show, don't tell**。下面是一份由 Code 生成的虚构项目周报：左侧是原始 Markdown，右侧是 `$feishu-doc-designer` 发布后的真实飞书页面。事实、数字和行动项完全一致，变化只发生在结构与视觉表达。
+同一份 NovaDesk 项目周报：左侧是原始 Markdown，右侧是 `$feishu-doc-designer` 发布后的真实飞书页面。内容不变，只优化信息层级、飞书组件和视觉强调。
 
 <table>
   <tr>

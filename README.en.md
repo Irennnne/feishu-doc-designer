@@ -18,11 +18,9 @@ It is designed for people looking for **Markdown to Feishu**, **Markdown to Lark
 | Local image paths are fragile | Stages and uploads local media |
 | Long content can break shell quoting | Publishes through safe relative `@file` input with `shell=False` |
 
-The project borrows the design-system, visual demonstration, and progressive-disclosure ideas of [frontend-slides](https://github.com/zarazhangrui/frontend-slides), while producing native long-form Feishu documents rather than CSS-driven web slides.
-
 ## Showcase: the same weekly report, before and after
 
-Following the **show, don't tell** approach of [frontend-slides](https://github.com/zarazhangrui/frontend-slides), this comparison starts with visual evidence. The fictional project report contains exactly the same facts, figures, risks, and action items on both sides; only the information design changes.
+The same NovaDesk project report appears as raw Markdown on the left and as a real `$feishu-doc-designer` output on the right. The content is unchanged; only hierarchy, native Feishu components, and visual emphasis are improved.
 
 <table>
   <tr>
