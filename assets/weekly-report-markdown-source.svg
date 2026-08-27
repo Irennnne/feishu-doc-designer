@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">NovaDesk 项目周报的原始 Markdown 源码</title>
+  <desc id="desc">深色代码编辑器中显示未经飞书组件设计的项目周报 Markdown，包括标题、列表和表格源码。</desc>
+  <rect width="1280" height="720" rx="18" fill="#0d1117"/>
+  <rect width="1280" height="58" rx="18" fill="#161b22"/>
+  <rect y="40" width="1280" height="18" fill="#161b22"/>
+  <circle cx="28" cy="29" r="7" fill="#ff5f57"/>
+  <circle cx="52" cy="29" r="7" fill="#febc2e"/>
+  <circle cx="76" cy="29" r="7" fill="#28c840"/>
+  <text x="108" y="36" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">weekly-report.md</text>
+  <rect x="1062" y="15" width="190" height="28" rx="14" fill="#30363d"/>
+  <text x="1157" y="35" text-anchor="middle" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1">RAW MARKDOWN</text>
+  <rect x="0" y="58" width="58" height="662" fill="#010409"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">
+    <g fill="#484f58" text-anchor="end">
+      <text x="43" y="92">1</text><text x="43" y="120">2</text><text x="43" y="148">3</text><text x="43" y="176">4</text>
+      <text x="43" y="204">5</text><text x="43" y="232">6</text><text x="43" y="260">7</text><text x="43" y="288">8</text>
+      <text x="43" y="316">9</text><text x="43" y="344">10</text><text x="43" y="372">11</text><text x="43" y="400">12</text>
+      <text x="43" y="428">13</text><text x="43" y="456">14</text><text x="43" y="484">15</text><text x="43" y="512">16</text>
+      <text x="43" y="540">17</text><text x="43" y="568">18</text><text x="43" y="596">19</text><text x="43" y="624">20</text>
+      <text x="43" y="652">21</text><text x="43" y="680">22</text>
+    </g>
+    <g x="76" fill="#c9d1d9">
+      <text x="76" y="92" fill="#79c0ff"># NovaDesk 智能客服项目周报 · W34</text>
+      <text x="76" y="120"></text>
+      <text x="76" y="148" fill="#8b949e">周期：2026.08.17—2026.08.21 ｜ Owner：林澈 ｜ 状态：按计划推进</text>
+      <text x="76" y="176"></text>
+      <text x="76" y="204" fill="#79c0ff">## 本周结论</text>
+      <text x="76" y="232"></text>
+      <text x="76" y="260">- 核心链路已灰度到 30%，本周 P0 事故 0 起。</text>
+      <text x="76" y="288">- 自动解决率从 31.2% 提升到 38.6%，超过 35% 的阶段目标。</text>
+      <text x="76" y="316">- iOS 登录成功率下降到 98.9%，等待新版 SDK 修复。</text>
+      <text x="76" y="344"></text>
+      <text x="76" y="372" fill="#79c0ff">## 关键指标</text>
+      <text x="76" y="400"></text>
+      <text x="76" y="428" fill="#a5d6ff">| 指标 | 目标 | 上周 | 本周 | 状态 |</text>
+      <text x="76" y="456" fill="#8b949e">| --- | ---: | ---: | ---: | --- |</text>
+      <text x="76" y="484">| 自动解决率 | ≥35% | 31.2% | 38.6% | 达标 |</text>
+      <text x="76" y="512">| 平均首次响应 | ≤2 分钟 | 2 分 43 秒 | 1 分 36 秒 | 达标 |</text>
+      <text x="76" y="540">| 知识库命中率 | ≥80% | 74.8% | 82.1% | 达标 |</text>
+      <text x="76" y="568">| iOS 登录成功率 | ≥99.5% | 99.6% | 98.9% | 风险 |</text>
+      <text x="76" y="596"></text>
+      <text x="76" y="624" fill="#79c0ff">## 本周完成</text>
+      <text x="76" y="652">- [x] 上线退款规则与订单状态两个高频意图</text>
+      <text x="76" y="680" fill="#8b949e">... 还有流程图、风险、决策记录和下周计划</text>
+    </g>
+  </g>
+</svg>

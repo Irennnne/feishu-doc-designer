@@ -37,6 +37,20 @@ Color communicates meaning; it is not decoration.
 - Emoji: use sparingly in callout icons or source text. Do not prefix every heading.
 - Columns: avoid by default; long-form Feishu documents should remain readable on narrow screens.
 
+Choose components by information role, not by decoration:
+
+| Source role | Preferred native treatment |
+| --- | --- |
+| Executive conclusion or weekly summary | One opening information Callout |
+| KPI table with explicit status | Gray header plus color only in status cells |
+| Explicitly completed work | Checked `checkbox` blocks |
+| Simple Mermaid process or architecture | Editable `whiteboard` |
+| Risk or unresolved dependency | Caution Callout |
+| Recorded decision or governing rule | `blockquote` |
+| Ordered next steps | `ol` |
+
+Do not invent a status, completion state, diagram, or decision to justify a component. If the source does not carry that meaning, keep ordinary prose or lists.
+
 ## At-a-glance summary
 
 For a document longer than about 1,200 CJK characters or 800 English words, add one opening callout only if no summary already exists:

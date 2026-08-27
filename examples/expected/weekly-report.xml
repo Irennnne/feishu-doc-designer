@@ -1,9 +1,21 @@
-<title>项目周报 · 第 32 周</title>
-<h2>本周进展</h2>
-<ul><li>完成支付接口联调</li><li>修复移动端登录超时问题</li><li>为发布流程补充回滚检查</li></ul>
-<h2>指标</h2>
-<table><thead><tr><th background-color="light-gray"><p>指标</p></th><th background-color="light-gray"><p>上周</p></th><th background-color="light-gray"><p>本周</p></th></tr></thead><tbody><tr><td><p>构建成功率</p></td><td><p>94%</p></td><td><p>98%</p></td></tr><tr><td><p>平均恢复时间</p></td><td><p>31 分钟</p></td><td><p>18 分钟</p></td></tr></tbody></table>
+<title>NovaDesk 智能客服项目周报 · W34</title>
+<p><span text-color="gray">2026.08.17—2026.08.21 · Owner：林澈 · 状态：按计划推进</span></p>
+<callout emoji="📌" background-color="light-blue"><p><b>本周结论</b></p><ul><li>核心链路已灰度到 <span background-color="light-green">30%</span>，本周 P0 事故 0 起。</li><li>自动解决率从 31.2% 提升到 <b>38.6%</b>，超过 35% 的阶段目标。</li><li>iOS 登录成功率下降到 98.9%，等待新版 SDK 修复。</li></ul></callout>
+<h2>关键指标</h2>
+<table><colgroup><col width="172"/><col width="96"/><col width="104"/><col width="104"/><col width="88"/></colgroup><thead><tr><th background-color="light-gray"><p>指标</p></th><th background-color="light-gray"><p>目标</p></th><th background-color="light-gray"><p>上周</p></th><th background-color="light-gray"><p>本周</p></th><th background-color="light-gray"><p>状态</p></th></tr></thead><tbody><tr><td><p>自动解决率</p></td><td><p>≥35%</p></td><td><p>31.2%</p></td><td><p><b>38.6%</b></p></td><td background-color="light-green"><p>达标</p></td></tr><tr><td><p>平均首次响应</p></td><td><p>≤2 分钟</p></td><td><p>2 分 43 秒</p></td><td><p><b>1 分 36 秒</b></p></td><td background-color="light-green"><p>达标</p></td></tr><tr><td><p>知识库命中率</p></td><td><p>≥80%</p></td><td><p>74.8%</p></td><td><p><b>82.1%</b></p></td><td background-color="light-green"><p>达标</p></td></tr><tr><td><p>iOS 登录成功率</p></td><td><p>≥99.5%</p></td><td><p>99.6%</p></td><td><p><b>98.9%</b></p></td><td background-color="light-yellow"><p>风险</p></td></tr></tbody></table>
+<h2>本周完成</h2>
+<checkbox done="true">上线退款规则与订单状态两个高频意图</checkbox>
+<checkbox done="true">为答非所问场景增加一键转人工与审计记录</checkbox>
+<checkbox done="true">完成 10% → 30% 灰度扩容和回滚演练</checkbox>
+<h2>灰度发布路径</h2>
+<whiteboard type="mermaid">flowchart LR
+  A[10% 流量] --&gt; B[30% 流量]
+  B --&gt; C[60% 流量]
+  C --&gt; D[100% 全量]
+  B --&gt;|指标异常| R[回滚到 10%]</whiteboard>
+<h2>风险与依赖</h2>
+<callout emoji="⚠️" background-color="light-yellow"><ul><li>iOS 18 WebView 与当前 SDK 存在兼容问题，预计使登录失败率增加 0.6 个百分点；客户端团队计划周一提供修复包。</li><li>生产 BI 看板权限仍在审批，数据负责人承诺周一 12:00 前确认。</li></ul></callout>
+<h2>决策记录</h2>
+<blockquote>灰度阶段只要模型出现答非所问，就立即转人工并保留审计记录。错误率连续 24 小时低于 0.8%、满意度不低于 4.5 分后，流量可扩大到 60%。</blockquote>
 <h2>下周计划</h2>
-<ol><li>开放 10% 流量</li><li>观察错误率与客服反馈</li><li>达标后扩大到 30%</li></ol>
-<h2>阻塞项</h2>
-<callout emoji="⚠️" background-color="light-yellow"><p>生产环境权限仍在审批，负责人预计周一确认。</p></callout>
+<ol><li>验证 iOS SDK 修复包并恢复登录成功率。</li><li>接入投诉分类，但继续排除法律争议类问题。</li><li>指标达标后将灰度流量从 30% 扩大到 60%。</li></ol>

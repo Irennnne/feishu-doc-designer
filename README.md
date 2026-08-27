@@ -22,11 +22,39 @@
 
 项目设计借鉴 [frontend-slides](https://github.com/zarazhangrui/frontend-slides) 的设计系统、效果展示和渐进式资源加载思路，但输出是适合长文阅读的飞书原生文档，不使用网页 CSS 或幻灯片动效。
 
-## 真实飞书效果
+## Showcase：同一份周报，前后有什么不同
 
-下面的页面由仓库中的[方案文档示例](examples/proposal.md)自动生成并发布。短语高亮、Callout、灰色表头和正文层级均为飞书原生组件。
+像 [frontend-slides](https://github.com/zarazhangrui/frontend-slides) 一样，这里先 **show, don't tell**。下面是一份由 Code 生成的虚构项目周报：左侧是原始 Markdown，右侧是 `$feishu-doc-designer` 发布后的真实飞书页面。事实、数字和行动项完全一致，变化只发生在结构与视觉表达。
 
-![飞书文档美化效果：AI 客服试点方案使用短语高亮、浅蓝 Callout 和灰色表格表头](assets/feishu-proposal-example.jpg)
+<table>
+  <tr>
+    <th width="50%">Before · 原始 Markdown</th>
+    <th width="50%">After · 飞书原生设计稿</th>
+  </tr>
+  <tr>
+    <td><img src="assets/weekly-report-markdown-source.svg" alt="NovaDesk 智能客服项目周报的原始 Markdown 源码，信息由标题、列表和表格语法组成" /></td>
+    <td><img src="assets/weekly-report-after.jpg" alt="Markdown 转飞书后的项目周报，使用浅蓝速览 Callout、短语高亮、灰色指标表头和状态色" /></td>
+  </tr>
+</table>
+
+设计版不是简单加颜色，而是把不同信息交给合适的飞书原生组件：
+
+- **结论** → 浅蓝 Callout；只高亮 `30%` 和关键指标。
+- **数据** → 灰色表头；绿色/黄色单元格只编码“达标 / 风险”。
+- **交付** → 已完成 Checklist；**流程** → 可编辑 Mermaid 画板。
+- **风险** → 浅黄 Callout；**决策** → 引用块；**计划** → 有序列表。
+
+### 一个案例，三种组件组合
+
+<p>
+  <img src="assets/weekly-report-after.jpg" width="32.5%" alt="飞书周报的结论速览和关键指标表" />
+  <img src="assets/weekly-report-flow-section.jpg" width="32.5%" alt="飞书周报的已完成任务和可编辑 Mermaid 灰度发布流程画板" />
+  <img src="assets/weekly-report-risk.jpg" width="32.5%" alt="飞书周报的风险 Callout、决策引用和下周计划" />
+</p>
+
+> 速览与指标 · Checklist 与画板 · 风险、决策与计划
+
+查看[完整 Markdown 源码](examples/weekly-report.md)和[生成后的飞书 XML](examples/expected/weekly-report.xml)。截图来自真实发布结果，不是网页 mockup。
 
 ## 快速开始
 
@@ -120,24 +148,6 @@ python3 scripts/publish_payload.py ./payload.xml --base-dir ./document-assets
 - 本地资源必须位于 `--base-dir` 内；图片仅支持 PNG、JPEG、GIF、WebP，单图不超过 20 MiB。
 - 不支持浏览器 CSS、字体、动画、渐变或固定布局；飞书客户端决定最终渲染。
 - 不把 App Secret、Access Token、用户文档或授权状态写入仓库。
-
-## 常见问题
-
-### 如何把 Markdown 转成更好看的飞书文档？
-
-安装官方 `lark-cli` 和本 Skill，然后让 Agent 使用 `$feishu-doc-designer` 发布本地 `.md` 文件。Skill 会先生成并校验飞书原生 XML，再直接创建文档。
-
-### 它会为了 SEO 改写我的文档吗？
-
-不会。SEO/GEO 只用于这个 GitHub 项目的公开介绍与可发现性。用户文档只做结构和排版优化。
-
-### 为什么不用飞书的 Markdown 原样导入？
-
-原样导入不能完整表达 Callout、短语背景色和可编辑 Mermaid 画板，也缺少这套克制的排版决策。
-
-### 能更新已有飞书文档吗？
-
-v0.1.0 只创建新文档，避免第一版引入覆盖和同步冲突。已有文档更新会作为后续独立能力设计。
 
 ## 开发与验证
 

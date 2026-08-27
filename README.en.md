@@ -20,11 +20,34 @@ It is designed for people looking for **Markdown to Feishu**, **Markdown to Lark
 
 The project borrows the design-system, visual demonstration, and progressive-disclosure ideas of [frontend-slides](https://github.com/zarazhangrui/frontend-slides), while producing native long-form Feishu documents rather than CSS-driven web slides.
 
-## Real Feishu output
+## Showcase: the same weekly report, before and after
 
-The page below was generated and published from the repository's [proposal example](examples/proposal.md). The phrase highlight, callout, gray table header, and document hierarchy are all native Feishu components.
+Following the **show, don't tell** approach of [frontend-slides](https://github.com/zarazhangrui/frontend-slides), this comparison starts with visual evidence. The fictional project report contains exactly the same facts, figures, risks, and action items on both sides; only the information design changes.
 
-![Polished Feishu document showing a short phrase highlight, a light-blue callout, and a gray table header](assets/feishu-proposal-example.jpg)
+<table>
+  <tr>
+    <th width="50%">Before · raw Markdown</th>
+    <th width="50%">After · native Feishu design</th>
+  </tr>
+  <tr>
+    <td><img src="assets/weekly-report-markdown-source.svg" alt="Raw Markdown source for a NovaDesk AI customer-support project report" /></td>
+    <td><img src="assets/weekly-report-after.jpg" alt="Polished Markdown-to-Feishu project report with a summary callout, restrained highlight, KPI table, and status colors" /></td>
+  </tr>
+</table>
+
+The designed version maps meaning to native components: conclusions become a light-blue callout, KPI status becomes restrained table color, completed work becomes checkboxes, the rollout path becomes an editable Mermaid whiteboard, and risks/decisions/plans use a caution callout, quote, and ordered list.
+
+### One case, three native component combinations
+
+<p>
+  <img src="assets/weekly-report-after.jpg" width="32.5%" alt="Feishu weekly report summary and KPI table" />
+  <img src="assets/weekly-report-flow-section.jpg" width="32.5%" alt="Completed tasks and editable Mermaid rollout whiteboard in a Feishu report" />
+  <img src="assets/weekly-report-risk.jpg" width="32.5%" alt="Risk callout, decision quote, and next-week plan in a Feishu report" />
+</p>
+
+> Summary and metrics · Checklist and whiteboard · Risks, decisions, and plan
+
+Inspect the [complete Markdown source](examples/weekly-report.md) and the [generated Feishu XML](examples/expected/weekly-report.xml). Every screenshot comes from a real published Feishu document, not a web mockup.
 
 ## Quick start
 
