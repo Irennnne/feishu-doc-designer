@@ -20,6 +20,12 @@ It is designed for people looking for **Markdown to Feishu**, **Markdown to Lark
 
 The project borrows the design-system, visual demonstration, and progressive-disclosure ideas of [frontend-slides](https://github.com/zarazhangrui/frontend-slides), while producing native long-form Feishu documents rather than CSS-driven web slides.
 
+## Real Feishu output
+
+The page below was generated and published from the repository's [proposal example](examples/proposal.md). The phrase highlight, callout, gray table header, and document hierarchy are all native Feishu components.
+
+![Polished Feishu document showing a short phrase highlight, a light-blue callout, and a gray table header](assets/feishu-proposal-example.jpg)
+
 ## Quick start
 
 Install and authenticate the official [Lark/Feishu CLI](https://github.com/larksuite/cli). Node.js and Python 3.9+ are required.

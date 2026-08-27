@@ -22,6 +22,12 @@
 
 项目设计借鉴 [frontend-slides](https://github.com/zarazhangrui/frontend-slides) 的设计系统、效果展示和渐进式资源加载思路，但输出是适合长文阅读的飞书原生文档，不使用网页 CSS 或幻灯片动效。
 
+## 真实飞书效果
+
+下面的页面由仓库中的[方案文档示例](examples/proposal.md)自动生成并发布。短语高亮、Callout、灰色表头和正文层级均为飞书原生组件。
+
+![飞书文档美化效果：AI 客服试点方案使用短语高亮、浅蓝 Callout 和灰色表格表头](assets/feishu-proposal-example.jpg)
+
 ## 快速开始
 
 ### 1. 安装官方飞书 CLI
