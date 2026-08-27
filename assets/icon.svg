@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Feishu Doc Designer icon</title>
+  <desc id="desc">A blue document with a white editorial highlight and a small wing-shaped page fold.</desc>
+  <rect width="512" height="512" rx="112" fill="#3370FF"/>
+  <path d="M137 102h166l72 72v236H137z" fill="#fff"/>
+  <path d="M303 102v72h72" fill="#B7C8FF"/>
+  <rect x="181" y="222" width="150" height="18" rx="9" fill="#1F2329"/>
+  <rect x="181" y="266" width="112" height="18" rx="9" fill="#1F2329"/>
+  <rect x="181" y="316" width="150" height="42" rx="12" fill="#FFF0B3"/>
+  <path d="M326 332c34-3 56 8 68 32-24 6-45 0-62-17 3 14 0 29-9 44-13-23-12-43 3-59z" fill="#3370FF"/>
+</svg>

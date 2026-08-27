@@ -1,0 +1,12 @@
+<title>发布服务快速指南</title>
+<h2>准备</h2>
+<p>需要 Python 3.9+，并确认当前目录包含 <span background-color="light-gray">config.json</span>。</p>
+<h2>执行</h2>
+<pre lang="bash"><code>python3 deploy.py --config ./config.json</code></pre>
+<h2>流程</h2>
+<whiteboard type="mermaid">graph LR
+  A[读取配置] --&gt; B[执行检查]
+  B --&gt; C[发布]
+  C --&gt; D[验证]</whiteboard>
+<h2>失败处理</h2>
+<callout emoji="⚠️" background-color="light-yellow"><p>如果检查失败，不要绕过校验。修复配置后重新运行一次。</p></callout>

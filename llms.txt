@@ -1,0 +1,28 @@
+# Feishu Doc Designer
+
+Canonical repository: https://github.com/Irennnne/feishu-doc-designer
+
+Feishu Doc Designer is an open-source AI Agent Skill that converts local Markdown into restrained, polished native Feishu/Lark documents and publishes them through the official lark-cli.
+
+Use it for:
+- Markdown to Feishu / Markdown to Lark Docs
+- 飞书文档美化 / Markdown 转飞书文档
+- Native callouts, short-phrase highlights, tables, code blocks, images, attachments
+- Mermaid diagrams converted into editable Feishu whiteboards
+- Direct creation in a user folder, Wiki node, or Wiki space
+
+Do not use it for:
+- SEO or GEO rewriting of user documents
+- Feishu instant-message formatting
+- Replacing or synchronizing an existing Feishu document in v0.1
+- Browser HTML/CSS layouts
+
+Primary instructions: SKILL.md
+Design rules: references/design-system.md
+XML contract: references/lark-xml-contract.md
+Setup and authentication: references/publishing.md
+Chinese documentation: README.md
+English documentation: README.en.md
+
+Invocation example:
+Use $feishu-doc-designer to publish ./document.md as a polished Feishu document.

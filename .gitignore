@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.env.*
+!.env.example
+*credential*
+*secret*
+*token*.json
+.lark/
+tmp/
+dist/

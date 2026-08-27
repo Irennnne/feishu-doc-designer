@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Feishu Doc Designer transforms plain Markdown into a polished native Feishu document</title>
+  <desc id="desc">A plain Markdown page flows into a spacious Feishu document with clear headings, a semantic callout, and a restrained table.</desc>
+  <rect width="1200" height="560" rx="36" fill="#F5F6F7"/>
+  <circle cx="1048" cy="93" r="150" fill="#E8EDFF"/>
+  <circle cx="122" cy="506" r="120" fill="#FFF5CC"/>
+  <text x="70" y="75" fill="#1F2329" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Markdown</text>
+  <text x="785" y="75" fill="#1F2329" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Native Feishu Doc</text>
+  <rect x="70" y="105" width="390" height="390" rx="22" fill="#FFFFFF" stroke="#DEE0E3" stroke-width="2"/>
+  <text x="108" y="160" fill="#3370FF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="21"># Project proposal</text>
+  <text x="108" y="207" fill="#646A73" font-family="ui-monospace, SFMono-Regular, monospace" font-size="18">## Background</text>
+  <rect x="108" y="229" width="280" height="12" rx="6" fill="#DEE0E3"/>
+  <rect x="108" y="254" width="238" height="12" rx="6" fill="#DEE0E3"/>
+  <text x="108" y="309" fill="#646A73" font-family="ui-monospace, SFMono-Regular, monospace" font-size="18">| Goal | Status |</text>
+  <text x="108" y="345" fill="#646A73" font-family="ui-monospace, SFMono-Regular, monospace" font-size="18">| ---  | ---    |</text>
+  <text x="108" y="381" fill="#646A73" font-family="ui-monospace, SFMono-Regular, monospace" font-size="18">| Pilot| Ready  |</text>
+  <text x="108" y="442" fill="#646A73" font-family="ui-monospace, SFMono-Regular, monospace" font-size="18">&gt; Important dependency</text>
+  <path d="M513 289h125" stroke="#3370FF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M610 259l31 30-31 30" fill="none" stroke="#3370FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="690" y="105" width="440" height="390" rx="22" fill="#FFFFFF" stroke="#DEE0E3" stroke-width="2"/>
+  <text x="734" y="164" fill="#1F2329" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Project proposal</text>
+  <rect x="734" y="190" width="352" height="76" rx="14" fill="#E8F3FF"/>
+  <circle cx="766" cy="228" r="13" fill="#3370FF"/>
+  <rect x="792" y="214" width="248" height="12" rx="6" fill="#8F959E"/>
+  <rect x="792" y="237" width="194" height="12" rx="6" fill="#B0B5BD"/>
+  <text x="734" y="311" fill="#1F2329" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Background</text>
+  <rect x="734" y="331" width="348" height="11" rx="5.5" fill="#C9CDD4"/>
+  <rect x="734" y="352" width="282" height="11" rx="5.5" fill="#C9CDD4"/>
+  <rect x="734" y="390" width="352" height="70" rx="10" fill="#F5F6F7"/>
+  <rect x="734" y="390" width="352" height="24" rx="10" fill="#E5E6EB"/>
+  <path d="M851 390v70M968 390v70M734 437h352" stroke="#D0D3D8" stroke-width="2"/>
+</svg>

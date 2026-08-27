@@ -1,0 +1,10 @@
+<title>AI 客服试点方案</title>
+<callout emoji="📌" background-color="light-blue"><p><b>目标</b>：在四周内验证 AI 客服能否降低重复咨询的人力成本，同时保持服务质量。</p></callout>
+<h2>背景</h2>
+<p>当前 <span background-color="light-yellow">62% 的咨询</span>集中在订单状态、退款规则和账号问题。高峰时段首次响应时间约为 11 分钟。</p>
+<h2>试点范围</h2>
+<table><thead><tr><th background-color="light-gray"><p>范围</p></th><th background-color="light-gray"><p>本期处理</p></th><th background-color="light-gray"><p>本期不处理</p></th></tr></thead><tbody><tr><td><p>渠道</p></td><td><p>网站在线客服</p></td><td><p>电话与线下门店</p></td></tr><tr><td><p>问题</p></td><td><p>订单、退款、账号</p></td><td><p>投诉与法律争议</p></td></tr></tbody></table>
+<h2>成功标准</h2>
+<ul><li>首次响应时间低于 2 分钟</li><li>自动解决率达到 35%</li><li>用户满意度不低于现状</li></ul>
+<h2>风险</h2>
+<callout emoji="⚠️" background-color="light-yellow" border-color="yellow"><p>错误回答必须能够立即转人工，所有建议都需要保留审计记录。</p></callout>

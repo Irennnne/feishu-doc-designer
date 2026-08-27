@@ -1,0 +1,9 @@
+interface:
+  display_name: "Feishu Doc Designer"
+  short_description: "将 Markdown 精修并发布为简洁的飞书原生文档"
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#3370FF"
+  default_prompt: "Use $feishu-doc-designer to publish ./document.md as a polished Feishu document."
+policy:
+  allow_implicit_invocation: true
